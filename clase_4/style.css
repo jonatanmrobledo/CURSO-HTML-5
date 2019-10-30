@@ -1,0 +1,38 @@
+#nombre,#pass,#mail{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+label{
+    color: black;
+    font-family: 'ZCOOL XiaoWei', serif;
+    /*text-decoration: underline;*/
+}
+
+h3,p{
+    font-family: 'Fira Code', monospace;
+    color: black;
+    width: 500px;
+    margin: 0 auto;
+}
+
+div{
+    width: 500px;
+    margin: 0 auto;
+}
+
+fieldset{
+    background-color: bisque;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#boton{
+    float: right;
+}
+
+#comentario{
+    width: 100%;
+}
