@@ -1,0 +1,48 @@
+p:first-letter{
+    line-height: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: cursive;
+    /*letter-spacing: 1em;*/
+}
+
+p{
+    font-size: 1.5em;
+    text-align: justify;
+    line-height: 2em;
+    /*letter-spacing: 1em;*/
+    text-indent: 2em;
+}
+
+a{
+    padding: 0 18px 0 0;
+    /*background: #FFF url(imagenes/alejo.gif)
+    no-repeat right center;*/
+}
+
+a.boton{
+    color:white;
+    background: blue;
+    text-decoration: none;
+    padding: .1em .5em;
+}
+
+a.boton-derecha{
+    padding: 0 18px 0 0;
+    background: #FFF url(imagenes/dolar.png)
+    no-repeat right center;
+}
+
+a.boton-imagen-fondo{
+    background: url(imagenes/libra.png);
+    text-decoration: none;
+    padding: .1em .5em;
+}
+
+#hola{
+    display: none;    
+}
+
+#mas:hover #hola{
+    display: inline;
+}
