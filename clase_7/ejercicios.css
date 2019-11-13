@@ -1,0 +1,33 @@
+h1::before{
+    content: "Esto es ";
+    color: blue;
+}
+
+h2::after{
+    content: " un affter";
+    color: brown;
+}
+
+p::first-letter{
+    text-transform: capitalize;
+    color: blue;
+    font-size: 150%;
+}
+
+input::placeholder{
+    background-color: black;
+}
+
+/*p:not(p::first-letter).nota{
+    margin: 10%;
+}*/
+
+p.nota::market{
+    display: list-item;
+    content: "Note"counter(note-counter)":";
+}
+
+::selection{
+    color:gold;
+    background: red;
+}
