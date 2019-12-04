@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-color: deepskyblue;
+
+}
+
+.item {
+    /* letter-spacing: 25px; */
+    /* width: 100%;  */
+    color: white;
+    text-align: right;
+    /* height: 30px; */
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

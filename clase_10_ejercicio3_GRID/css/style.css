@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header'
+    'aside_1 mensaje mensaje mensaje aside_2'
+    'footer footer footer footer footer';
+    background-color: burlywood;
+    /* grid-gap: 10px;
+    padding: 10px; */
+}
+
+.item1 {grid-area: header}
+.item2 {grid-area: aside_1}
+.item3 {grid-area: mensaje}
+.item4 {grid-area: aside_2}
+.item5 {grid-area: footer}
