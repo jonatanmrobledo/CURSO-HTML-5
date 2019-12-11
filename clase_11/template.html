@@ -1,0 +1,86 @@
+<template id="mi-elemento">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.css" rel="stylesheet" crossorigin="anonymous">
+    <style>
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  background-color: deepskyblue;
+
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  background-color: deepskyblue;
+
+}
+
+.item {
+  /* letter-spacing: 25px; */
+  /* width: 100%;  */
+  color: white;
+  text-align: center;
+  /* height: 30px; */
+  margin: 15px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item2 {
+  /* letter-spacing: 25px; */
+  /* width: 100%;  */
+  color: white;
+  text-align: center;
+  /* height: 30px; */
+  margin: 15px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 900px){
+.container {
+      display: block;
+  }
+  .item{
+      border-bottom: solid 1px;
+      padding: 2px;
+      display: none;
+  }
+}
+
+@media (max-width: 350px){
+  .container2 {
+      display: block;
+  }
+    .item2{
+        border-bottom: solid 1px;
+        padding: 2px;
+    }
+
+    .item{
+        border-bottom: solid 1px;
+        padding: 2px;
+        display: none;
+    }
+}
+    </style>
+    
+    <div class="container" >
+      <div class="item" ><p> Home</p></div>
+      <div class="item" ><p> About</p></div>
+      <div class="item" ><p> Products</p></div>
+      <div class="item" ><p> Contact</p></div>
+   </div>
+
+   <div class="container2" >
+      <div class="item2" ><i class="fas fa-home"></i></div>
+      <div class="item2" ><i class="fas fa-address-card"></i></div>
+      <div class="item2" ><i class="fab fa-product-hunt"></i></div>
+      <div class="item2" ><i class="fas fa-id-card-alt"></i></div>
+   </div>
+
+</template>
