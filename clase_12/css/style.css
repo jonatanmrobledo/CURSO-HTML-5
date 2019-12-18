@@ -1,0 +1,97 @@
+.cuadrado{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    animation-name: cambiar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cambiar{
+    from{background: yellow;}
+    to {background: orange;}
+}
+/*
+.circulo{
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    animation-name: rebota;
+    animation-timing-function: cubic-bezier(.55,.83,.71,.25);
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}*/
+
+.leyenda{
+    margin: 30px;
+    animation-name: mensaje;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin: auto;
+}
+
+@keyframes mensaje{
+    from{background: red;}
+    to {background: green;}
+}
+
+/*@keyframes caer{
+    0%{
+        background: orange;
+    }
+    25% {
+        background: orange;
+    }
+    50% {
+        background: orange;
+    }
+    100% {
+        background: orange;
+    }
+}*/
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: green;
+    /*position: absolute;*/
+    animation-name: rebota;
+    /*animation-timing-function: cubic-bezier(.55,.83,.71,.25);*/
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rebota {
+    0% {
+      margin-top: 10px;
+      height: 100px;
+    }
+    /*10% {
+      margin-top: 20px;
+      height: 100px;
+    }
+    30% {
+      margin-top: 50px;
+      height: 150px;
+    }
+    /*50% {
+        top: 200px;
+        height: 500px;
+      }
+    80% {
+         top: 200px;
+        height: 100px;
+    }*/
+    80% {
+        margin-top: 360px;
+        height: 100px;
+    }
+    100% {
+        margin-top: 360px;
+        height: 80px;
+    }
+  }
